@@ -11,11 +11,11 @@ const Mailgun = require('mailgun.js');
 
 const mailgun = new Mailgun(formData);
 const apikey_MailGum = process.env.MAILGUN_API_KEY;
-const domain = 'sandbox93fa7a1214c44776909f58145ab4b19c.mailgun.org';
-const client  = mailgun.client({username: 'api', key: process.env.MAILGUN_API_KEY || '13df2f01c0e1248165a3e8f62487f1a5-e2e3d8ec-0227980d' });
+const domain = 'yourdomain-name-here.mailgun.org';
+const client  = mailgun.client({username: 'api', key: process.env.MAILGUN_API_KEY || 'you-key-here' });
 // const mg = require('mailgun.js')({apiK: apikey_MailGum, DOMAIN: domain});
 
-// const Mailchimp = requconst client  = mailgun.client({username: 'api', key: process.env.MAILGUN_API_KEY || '13df2f01c0e1248165a3e8f62487f1a5-e2e3d8ec-0227980d' });
+// const Mailchimp = requconst client  = mailgun.client({username: 'api', key: process.env.MAILGUN_API_KEY });
 //ire('mailchimp-api-v3');
 // const api_key_chmpMail = `${process.env.MAILCHIMP_API_KEY}` ; 
 // chmpMail.setApiKey('process.env.MAILCHIMP_API_KEY');
